@@ -1,0 +1,95 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+  background-image: url("/src/img-3ygY9fQUfaal9vou9zMQEZWg.png");
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#app form {
+  margin-bottom: 20px;
+}
+
+#app form input {
+  width: 250px;
+  height: 40px;
+  padding-left: 50px;
+  background-image: url("/src/img-3ygY9fQUfaal9vou9zMQEZWg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 18px;
+  border-radius: 2px;
+  border: 0;
+  appearance: none;
+  background-color: rgb(202, 55, 202);
+  box-shadow: 0px 0px 10px rgb(180, 19, 212);
+  outline: none;
+}
+
+#app form input::placeholder {
+  color: white;
+}
+
+#app div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+}
+
+#app div h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  display: none;
+  color: white;
+  background-color: rgb(180, 19, 212);
+  border-radius: 5px;
+  padding: 10px;
+  white-space: nowrap;
+  box-shadow: 0px 0px 10px rgb(180, 19, 212);;
+}
+
+#app div img {
+  object-fit: cover;
+}
